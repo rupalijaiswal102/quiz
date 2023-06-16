@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
 
+import 'react-toastify/dist/ReactToastify.css';
+
+//import Quiz from './components/quiz';
+//import MainComponents from './components/maincompnents';
+import MainComponent1 from './components/maincomponent1';
+//import MainComponent2 from './components/maincomponent2';
+//import MainComponent3 from './components/mainComponent3';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <MainComponent1/>
   </React.StrictMode>
 );
 
